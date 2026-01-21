@@ -1,0 +1,31 @@
+.chatbot-container {
+  width: 100%;
+  max-width: 800px;
+  height: 90vh;
+  background: #1a1a1a;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #333;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .chatbot-container {
+    width: 95vw;
+    height: 95vh;
+    border-radius: 15px;
+    margin: 2.5vh auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .chatbot-container {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+    margin: 0;
+  }
+}
