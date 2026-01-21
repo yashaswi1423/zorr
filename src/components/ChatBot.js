@@ -9,7 +9,7 @@ const ChatBot = () => {
   const [messages, setMessages] = useState([
     {
       id: 1,
-      text: "Hi! I'm Zorr's customer care assistant. How can I help you today?",
+      text: "Hello! I'm your dedicated Zorr customer care assistant. I have access to your order history, real-time delivery tracking, and can help with any concerns. I know everything about your orders, delivery locations, and can connect you with emergency support if needed. How can I help you today?",
       sender: 'bot',
       timestamp: new Date()
     }

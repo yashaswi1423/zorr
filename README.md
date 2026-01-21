@@ -13,15 +13,53 @@ A responsive React-based customer care chatbot for Zorr food delivery app with a
 
 ## Customer Care Features
 
-The bot can help with:
-- Order tracking and status updates
-- Order cancellation requests
-- Refund processing
-- Delivery information and issues
-- Payment-related queries
-- Restaurant and menu information
-- Account management
-- Complaint handling
+The bot acts like a real customer care agent with comprehensive knowledge:
+
+### 🔍 **Real-time Order Tracking**
+- Live order status updates
+- Delivery partner details and contact
+- Estimated delivery times
+- Restaurant preparation status
+
+### 👤 **Customer Profile Access**
+- Complete order history
+- Personal details and preferences
+- Delivery addresses
+- Payment methods
+
+### 🚨 **Emergency Support**
+- Immediate escalation for urgent issues
+- Direct contact with delivery partners
+- Emergency hotline connections
+- Priority support activation
+
+### 💰 **Smart Refund Processing**
+- Instant refund calculations
+- Multiple refund options (money/credits)
+- Compensation for issues
+- Automatic quality feedback
+
+### 📍 **Location Intelligence**
+- Coverage area information
+- Restaurant availability by location
+- Delivery radius and timing
+- Area-specific recommendations
+
+### 🍽️ **Food Quality Management**
+- Issue reporting and resolution
+- Restaurant quality feedback
+- Replacement order processing
+- Compensation for poor experiences
+
+## Test the Advanced Bot
+
+Try these sample interactions:
+- "Track my order ZR2024001"
+- "My phone number is 9876543210"
+- "Emergency - delivery is very late"
+- "My food arrived cold"
+- "Cancel order ZR2024001"
+- "Do you deliver to Koramangala?"
 
 ## Installation
 

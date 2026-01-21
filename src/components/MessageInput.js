@@ -50,7 +50,7 @@ const MessageInput = ({ onSendMessage }) => {
       <div className="quick-actions">
         <button 
           className="quick-action-btn"
-          onClick={() => onSendMessage("Track my order")}
+          onClick={() => onSendMessage("Track my order ZR2024001")}
         >
           Track Order
         </button>
@@ -62,9 +62,27 @@ const MessageInput = ({ onSendMessage }) => {
         </button>
         <button 
           className="quick-action-btn"
-          onClick={() => onSendMessage("Refund request")}
+          onClick={() => onSendMessage("My food is cold and late")}
+        >
+          Food Issue
+        </button>
+        <button 
+          className="quick-action-btn"
+          onClick={() => onSendMessage("Emergency - delivery partner is lost")}
+        >
+          Emergency
+        </button>
+        <button 
+          className="quick-action-btn"
+          onClick={() => onSendMessage("Refund request for my order")}
         >
           Refund
+        </button>
+        <button 
+          className="quick-action-btn"
+          onClick={() => onSendMessage("Update my delivery address")}
+        >
+          Update Address
         </button>
       </div>
     </div>
